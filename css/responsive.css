@@ -1,6 +1,17 @@
 @media only screen and (max-width: 600px) {
-    .apresentation img{
+
+    .apresentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apresentation img {
         width: 150px;
+    }
+
+    .apresentation div{
+        width: 50%;
+        height: 0vh;
     }
 
     .apresentation h1 {
@@ -8,10 +19,17 @@
         font-weight: 1;
         font-size: 35px;
     }
+
+    #resp-apre {
+        margin-top: 200px;
+        width: 500px;
+    }
     
     .apresentation p {
         color: rgba(27, 27, 102, 0.911);
         font-size: 15px;
         padding: 15px 0px;
+        margin-top: 70px;
+        width: 300px;
     }
   }
