@@ -1,0 +1,17 @@
+@media only screen and (max-width: 00px) {
+    .apresentation img{
+        width: 150px;
+    }
+
+    .apresentation h1 {
+        color: rgba(27, 27, 102, 0.911);
+        font-weight: 1;
+        font-size: 35px;
+    }
+    
+    .apresentation p {
+        color: rgba(27, 27, 102, 0.911);
+        font-size: 15px;
+        padding: 15px 0px;
+    }
+  }
