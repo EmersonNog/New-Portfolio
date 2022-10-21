@@ -1,5 +1,21 @@
 @media only screen and (max-width: 600px) {
 
+    .menu img{
+        width: 50px;
+    }
+
+    .menu h5{
+        font-size: 12px;
+    }
+
+    .tellme img{
+        width: 30px;
+    }
+
+    .tellme h5{
+        font-size: 12px;
+    }
+
     .apresentation {
         display: flex;
         flex-direction: column;
@@ -8,7 +24,7 @@
     .apresentation img {
         width: 150px;
         display: flex;
-        margin-left: 45%;
+        margin-left: 35%;
         margin-top: -10px;
     }
 
@@ -24,7 +40,6 @@
         margin-top: 200px;
         width: 250px;
         text-align: center;
-        margin-left: 15%;
     }
     
     .apresentation p {
@@ -33,7 +48,7 @@
         padding: 15px 0px;
         width: 300px;
         text-align: center;
-        margin-left: 5%;
+        margin-left: -10%;
     }
 
     #copyright{
@@ -43,13 +58,14 @@
     .work h1 {
         margin-top: 540px;
         font-size: 35px;
+        margin-left: -10px;
     }
 
     .work p {
         font-size: 15px;
         width: 270px;
         text-align: center;
-        margin-left: 5px;
+        margin-left: -10px;
     }
 
     .content{
@@ -62,7 +78,8 @@
     }
 
     .projects p{
-        width: 150px;
+        width: 130px;
+        margin-left: 10px;
     }
 
     .projects {
@@ -76,6 +93,11 @@
     .projects-2 img{
         width: 150px;
         height: 150px;
+    }
+
+    .projects-2 p{
+        width: 130px;
+        margin-left: 10px;
     }
 
 
