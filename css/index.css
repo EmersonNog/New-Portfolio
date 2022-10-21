@@ -9,14 +9,12 @@ a {
     color: rgba(27, 27, 102, 0.911);
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+h1, p, a{
+    font-family: 'Kanit', sans-serif;
+    color: rgba(27, 27, 102, 0.911);
+    font-size: 25px;
+    padding: 15px 0px;
 }
-
-
 
 .top-bar {
     display: flex;
@@ -60,12 +58,14 @@ ul{
 
 .apresentation img {
     width: 350px;
+    margin-top: 50px;
 }
 
 .apresentation h1 {
     color: rgba(27, 27, 102, 0.911);
     font-weight: 1;
     font-size: 70px;
+    margin-top: 40px;
 }
 
 .apresentation p {
@@ -113,4 +113,84 @@ ul{
     justify-content: center;
     margin-top: 20px;
     color: rgb(117, 117, 117);
+}
+
+#formation{
+    color: rgb(255, 166, 0);
+}
+
+.work{
+    display: flex;
+    margin-left: 13%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p{
+    color: rgb(139, 139, 139);
+}
+
+.work h1 {
+    color: rgba(27, 27, 102, 0.911);
+    font-weight: 1;
+    font-size: 70px;
+    
+}
+
+#div{
+    width: 1px;
+    height: 250px;
+    background-color: rgb(139, 139, 139);
+}
+
+.projects div{
+    display: flex;
+}
+
+.projects img{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    filter: blur(3px);
+    transition: 0.4s ease-in-out;
+}
+
+.projects img:hover{
+    filter: blur(0px);
+    transition: 0.4s ease-in-out;
+}
+
+.projects p{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.projects-2 img{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    filter: blur(3px);
+    transition: 0.4s ease-in-out;
+}
+
+.projects-2 img:hover{
+    filter: blur(0px);
+    transition: 0.4s ease-in-out;
+}
+
+.projects-2 div{
+    display: flex;
+}
+
+.projects-2 p{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
 }
