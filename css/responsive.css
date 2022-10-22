@@ -21,6 +21,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 20px;
     }
 
     .apresentation img {
@@ -74,32 +75,10 @@
         margin-left: 0px;
     }
 
-    .projects img{
-        width: 150px;
-        height: 150px;
-    }
-
-    .projects p{
-        width: 130px;
-        margin-left: 10px;
-    }
-
-    .projects {
-        margin-top: -500px;
-    }
-
-    .projects-2 {
-        margin-top: -570px;
-    }
-
-    .projects-2 img{
-        width: 150px;
-        height: 150px;
-    }
-
-    .projects-2 p{
-        width: 130px;
-        margin-left: 10px;
+    .content p{
+        color: rgb(139, 139, 139);
+        font-size: 10px;
+        font-weight: bold;
     }
 
     .project {
@@ -178,6 +157,50 @@
         padding: 10px;
     }
 
+    #proj1{
+        width: 320px;
+        height: 210px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    #proj2{
+        width: 300px;
+        height: 300px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    #proj3{
+        width: 350px;
+        height: 200px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    #proj4{
+        width: 200px;;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+
+    #proj5{
+        width: 350px;
+        height: 200px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+
+    .container h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container h5{
+        font-size: 13px;
+        text-align: center;
+    }
+
     body{
         overflow-x: hidden;
     }
@@ -248,8 +271,9 @@
     }
 
     .work{
-        width: 50%;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .work h1 {
@@ -267,34 +291,6 @@
 
     .content{
         margin-left: 0px;
-    }
-
-    .projects img{
-        width: 150px;
-        height: 150px;
-    }
-
-    .projects p{
-        width: 130px;
-        margin-left: 10px;
-    }
-
-    .projects {
-        margin-top: -500px;
-    }
-
-    .projects-2 {
-        margin-top: -570px;
-    }
-
-    .projects-2 img{
-        width: 150px;
-        height: 150px;
-    }
-
-    .projects-2 p{
-        width: 130px;
-        margin-left: 10px;
     }
 
     .project {
@@ -354,6 +350,39 @@
         font-size: 17px;
         margin-top: 0px;
         margin-left: -70px;
+    }
+
+    #proj1{
+        width: 600px;
+        height: 300px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    #proj2{
+        width: 400px;
+        height: 350px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    #proj3{
+        width: 600px;;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+    
+    #proj4{
+        width: 300px;;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+
+    #proj5{
+        width: 550px;
+        height: 300px;
+        border: 1px solid;
+        border-radius: 20px;
     }
 
     body{
