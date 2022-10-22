@@ -19,12 +19,13 @@
     .apresentation {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .apresentation img {
         width: 150px;
         display: flex;
-        margin-left: 35%;
         margin-top: -10px;
     }
 
@@ -52,7 +53,8 @@
     }
 
     #copyright{
-        margin-top: 0px;
+        margin-top: 80px;
+        font-size: 10px;
     }
 
     .work h1 {
@@ -159,8 +161,202 @@
         margin-left: -70px;
     }
 
+    #division{
+        display: none;
+    }
+
+    .abot h1{
+        margin-top: 40px;
+        font-size: 35px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .abot p{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+
     body{
         overflow-x: hidden;
     }
     
-  }
+}
+
+@media only screen and (min-width: 500px) {
+    .menu img{
+        width: 70px;
+    }
+
+    .menu h5{
+        font-size: 15px;
+    }
+
+    .tellme img{
+        width: 40px;
+    }
+
+    .tellme h5{
+        font-size: 15px;
+    }
+
+    .apresentation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .apresentation img {
+        width: 250px;
+    }
+
+    .apresentation h1 {
+        color: rgba(27, 27, 102, 0.911);
+        font-weight: 1;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .apresentation p {
+        color: rgba(27, 27, 102, 0.911);
+        font-size: 15px;
+        padding: 15px 0px;
+        text-align: center;
+        margin-left: -10%;
+    }
+
+    .container{
+        display: flex;
+    }
+
+    .abot{
+        margin-right: 20px;
+        padding: 0 -100px;
+    }
+
+    .abot h1{
+        margin-top: 40px;
+        font-size: 35px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .abot p{
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .work{
+        width: 50%;
+        text-align: center;
+    }
+
+    .work h1 {
+        margin-top: 40px;
+        font-size: 35px;
+        margin-left: -10px;
+    }
+
+    .work p {
+        font-size: 15px;
+        width: 270px;
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .content{
+        margin-left: 0px;
+    }
+
+    .projects img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .projects p{
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    .projects {
+        margin-top: -500px;
+    }
+
+    .projects-2 {
+        margin-top: -570px;
+    }
+
+    .projects-2 img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .projects-2 p{
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    .project {
+        width: 270px;
+        height: 200px;
+    }
+
+    .project a{
+        height: 200px;
+    }
+
+    .project img{
+        width: 180px;
+    }
+
+    .project h1{
+        font-size: 17px;
+        margin-top: 0;
+        margin-right: 12px;
+    }
+
+    .tech {
+        width: 270px;
+        height: 160px;
+    }
+
+    .tech a{
+        height: 160px;
+    }
+
+    .tech img{
+        width: 130px;
+        margin-right: 20px;
+    }
+
+    .tech h1{
+        font-size: 17px;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    
+    .network {
+        width: 270px;
+        height: 160px;
+    }
+
+    .network a{
+        height: 160px;
+    }
+
+    .network img{
+        width: 280px;
+        margin-left: -500px;
+    }
+
+    .network h1{
+        font-size: 17px;
+        margin-top: 0px;
+        margin-left: -70px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}

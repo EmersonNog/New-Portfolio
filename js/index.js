@@ -5,4 +5,4 @@ function showLoading() {
     body.style.overflow = 'visible'
 }
 
-setTimeout(showLoading, 5000)
+setTimeout(showLoading, 3000)

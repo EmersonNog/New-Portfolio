@@ -18,10 +18,10 @@
         <h1>Loading Portfolio...</h1>
     </div>
 
-    <main>
+    <main id="top">
         <div class="top-bar">
             <div class="menu">
-                <a href="/">
+                <a href="#top">
                     <img src="./assets/logo.png" alt="">
                     <h5>HOME</h5>
                 </a>
@@ -38,7 +38,8 @@
         
         <div class="apresentation">
             <div class="hi">
-                <h1>Hi, my names is <span>Emerson</span></h1>
+                <h1>Hi, my names is</h1>
+                <span data-text="Emerson" id="name">Emerson</span>
                 <p>
                     I'm an <span>independent creative developer</span> from Teresina, Piauí.
                     I'm a <span id="formation">developer e geoprocessing analyst</span> who has been building for the web in some capacity since 2021. Focusing on responsiveness, performance and usability without sacrificing creativity.
@@ -49,46 +50,61 @@
             </div>
         </div>
 
-        <div class="work">
-            <div>
-                <h1>Let's work together</h1>
-                <p>I work with forward-thinking people to design and build interactive, accessible websites and products.</p>
-                <div class="content">
-                    <p>S C R O O L</p>
-                    <div id="div"></div>
+        <div class="container">
+            <div class="work">
+                <div>
+                    <h1>Let's work together</h1>
+                    <p>I work with forward-thinking people to design and build interactive, accessible websites and products.</p>
+                    <div class="content">
+                        <p>S C R O O L</p>
+                        <div id="div"></div>
+                    </div>
+    
+                    <div class="project">
+                        <a href="projects.html">
+                            <img src="assets/Projetos.png" alt="">
+                            <h1>My Projects</h1>
+                        </a>
+                    </div>
+    
+                    <div class="content">
+                        <p>S C R O O L</p>
+                    </div>
+    
+                    <div class="tech">
+                        <a href="tech.html">
+                            <img src="assets/tech.png" alt="">
+                            <h1>Technologies</h1>
+                        </a>
+                    </div>
+    
+                    <div class="content">
+                        <p>S C R O O L</p>
+                    </div>
+    
+                    <div class="network">
+                        <a href="network.html">
+                            <img src="assets/network.png" alt="">
+                            <h1>Networks</h1>
+                        </a>
+                    </div>
                 </div>
-
-                <div class="project">
-                    <a href="projects.html">
-                        <img src="assets/Projetos.png" alt="">
-                        <h1>My Projects</h1>
-                    </a>
-                </div>
-
-                <div class="content">
-                    <p>S C R O O L</p>
-                </div>
-
-                <div class="tech">
-                    <a href="tech.html">
-                        <img src="assets/tech.png" alt="">
-                        <h1>Technologies</h1>
-                    </a>
-                </div>
-
-                <div class="content">
-                    <p>S C R O O L</p>
-                </div>
-
-                <div class="network">
-                    <a href="network.html">
-                        <img src="assets/network.png" alt="">
-                        <h1>Networks</h1>
-                    </a>
-                </div>
-
             </div>
+
+            <div id="division"></div>
+
+            <div class="abot">
+                <h1>Let's build something better.</h1>
+                <p>
+                    I strongly believe that designers and developers have a responsibility to make sure that what we are building does no harm and I try to be as ethical as I can in taking on projects.
+                </p>
+                <p>
+                    All that said, if you are looking for help building something that promotes sustainability, diversity, or generally aims to make a positive impact, then let’s talk.
+                </p>
+            </div>
+
         </div>
+
         <footer id="copyright">MMXXII. Emerson N. Santos</footer>
 
     </main>
