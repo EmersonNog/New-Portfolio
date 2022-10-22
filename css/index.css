@@ -16,6 +16,41 @@ h1, p, a{
     padding: 15px 0px;
 }
 
+#tela{
+    position: static;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 12px solid #6dbad4;
+    border-radius: 360px;
+    display: block;
+    border-top: 12px solid transparent;
+    animation: loading 1s ease-in-out infinite;
+}
+
+body{
+    overflow: hidden;
+}
+ 
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .top-bar {
     display: flex;
     justify-content: space-around;
