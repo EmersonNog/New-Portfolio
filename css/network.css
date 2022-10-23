@@ -30,9 +30,9 @@ h1, h5, p, a{
 }
 
 .content div{
-    width: 1px;
+    width: .5px;
     height: 100px;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(139, 139, 139);
 }
 
 .up{
