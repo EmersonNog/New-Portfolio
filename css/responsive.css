@@ -152,9 +152,18 @@
     }
 
     .abot p{
-        font-size: 15px;
+        font-size: 14px;
         text-align: center;
         padding: 10px;
+    }
+
+    .container-projects img{
+        filter: blur(2px);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .container-projects img:hover{
+        filter: blur(0px); 
     }
 
     #proj1{
@@ -350,6 +359,15 @@
         font-size: 17px;
         margin-top: 0px;
         margin-left: -70px;
+    }
+    
+    .container-projects img{
+        filter: blur(2px);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .container-projects img:hover{
+        filter: blur(0px); 
     }
 
     #proj1{

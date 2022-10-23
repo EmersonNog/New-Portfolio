@@ -165,7 +165,7 @@ body{
 
 .work{
     display: flex;
-    margin-left: 13%;
+    margin-left: 12%;
 }
 
 .project{
@@ -253,7 +253,7 @@ body{
 .work h1 {
     color: rgba(27, 27, 102, 0.911);
     font-weight: 1;
-    font-size: 70px;
+    text-align: center;
 }
 
 #div{
