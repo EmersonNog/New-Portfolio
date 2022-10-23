@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #f4f9fc;
+    background-color: #822c8a18;
 }
 
 h1, h5, p, a{
@@ -80,4 +80,35 @@ h1, h5, p, a{
     margin-top: 20px;
     color: rgb(117, 117, 117);
     font-size: 12px;
+}
+
+.container-skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 25px 3px, rgba(0, 0, 0, 0.09) 0px 20px 4px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(117, 153, 145);
+    cursor: pointer;
+}
+
+.box p{
+    font-size: 10px;
+}
+
+.box img{
+    width: 50px;
+}
+
+.skill-mid{
+    display: flex;
+    flex-direction: column;
 }

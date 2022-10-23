@@ -213,6 +213,27 @@
         text-align: center;
     }
 
+    .content-end p{
+        color: rgb(139, 139, 139);
+        font-size: 10px;
+        font-weight: bold;
+        width: 100%;      
+    }
+
+    .skill{
+        margin: 30px;
+    }
+    
+    .box{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .box img{
+        width: 60px;
+    }
+
     body{
         overflow-x: hidden;
     }
@@ -304,10 +325,6 @@
     .content{
         margin-left: 0px;
         width: 100%;
-    }
-
-    .content div{
-        background-color: red;
     }
 
     .project {
@@ -413,7 +430,26 @@
         border-radius: 20px;
     }
 
-    body{
-        overflow-x: hidden;
+    .content-end{
+        display: none;
     }
+    
+    .skill {
+        margin: 40px;
+    }
+    
+    .box{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 40px;
+    }
+    
+    .box p{
+        font-size: 10px;
+    }
+    
+    .box img{
+        width: 70px;
+    }
+
 }
