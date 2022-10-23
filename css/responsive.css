@@ -83,7 +83,9 @@
 
     .project {
         width: 270px;
-        height: 200px;
+        height: 160px;
+        display: flex;
+        align-items: center;
     }
 
     .project a{
@@ -97,7 +99,7 @@
     .project h1{
         font-size: 17px;
         margin-top: 0;
-        margin-right: 12px;
+        margin-left: -25px;
     }
 
     .tech {
@@ -304,7 +306,9 @@
 
     .project {
         width: 270px;
-        height: 200px;
+        height: 160px;
+        display: flex;
+        align-items: center;
     }
 
     .project a{
@@ -318,7 +322,7 @@
     .project h1{
         font-size: 17px;
         margin-top: 0;
-        margin-right: 12px;
+        margin-left: -15px;
     }
 
     .tech {

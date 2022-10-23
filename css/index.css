@@ -169,10 +169,11 @@ body{
 }
 
 .project{
-    transition: 0.9s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     width: 1000px;
     margin: 50px 0px;
+    background-color: rgba(104, 104, 104, 0.199);
+    border-radius: 10px;
 }
 
 .project a{
@@ -182,16 +183,15 @@ body{
 }
 
 .project:hover{
-    transition: 0.9s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transform: rotate(-10deg);
+    box-shadow: rgba(49, 40, 40, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .tech{
-    transition: 0.9s ease-in-out;
+    background-color: rgba(104, 104, 104, 0.199);
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     width: 1000px;
     margin: 50px 0px;
+    border-radius: 10px;
 }
 
 .tech a{
@@ -205,16 +205,15 @@ body{
 }
 
 .tech:hover{
-    transition: 0.9s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transform: rotate(10deg);
 }
 
-.network{
-    transition: 0.9s ease-in-out;
+.network{    
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     width: 1000px;
     margin: 50px 0px;
+    background-color: rgba(104, 104, 104, 0.199);
+    border-radius: 10px;
 }
 
 .network h1{
@@ -233,9 +232,7 @@ body{
 }
 
 .network:hover{
-    transition: 0.9s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transform: rotate(-10deg);
 }
 
 .content{
