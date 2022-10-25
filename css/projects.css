@@ -51,11 +51,13 @@ h1, h5, p, a{
 .top-bar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 10px;
     position: sticky;
     top: 0;
     padding: 20px 0px;
     height: 80px;
+    z-index: 1;
 }
 
 .menu a{

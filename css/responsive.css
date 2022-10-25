@@ -1,4 +1,9 @@
 @media only screen and (max-width: 600px) {
+    .top-bar.scroll{
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        z-index: 1;
+    }
 
     .menu img{
         width: 50px;
@@ -241,6 +246,12 @@
 }
 
 @media only screen and (min-width: 500px) {
+    .top-bar.scroll{
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        z-index: 1;
+    }
+
     .menu img{
         width: 70px;
     }
