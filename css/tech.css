@@ -109,8 +109,3 @@ h1, h5, p, a{
 .box img{
     width: 50px;
 }
-
-.skill-mid{
-    display: flex;
-    flex-direction: column;
-}

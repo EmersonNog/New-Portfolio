@@ -4,5 +4,4 @@ function showLoading() {
     display.style.display = 'none'
     body.style.overflow = 'visible'
 }
-
-setTimeout(showLoading, 3000)
+setTimeout(showLoading, 2000)
